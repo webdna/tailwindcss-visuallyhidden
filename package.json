@@ -17,14 +17,12 @@
   ],
   "author": "webdna",
   "contributors": [
-    "Nathaniel Hammond <nathaniel@webdna.co.uk>",
+    "Nathaniel Hammond <nathaniel@webdna.co.uk>"
   ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/webdna/tailwindcss-visuallyhidden/issues"
   },
   "homepage": "https://github.com/webdna/tailwindcss-visuallyhidden#readme",
-  "devDependencies": {
-    "lodash": "^4.17.5"
-  }
+  "devDependencies": {}
 }
