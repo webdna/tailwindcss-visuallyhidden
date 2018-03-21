@@ -1,5 +1,5 @@
-module.exports = function({ variants }) {
-  return function({ addUtilities, e }) {
+module.exports = function (variants) {
+  return function({ addUtilities }) {
     const className = 'visuallyhidden';
     const focusClassName = 'focusable';
 
