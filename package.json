@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-visuallyhidden",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Visually Hidden utility plugin for tailwindcss framework",
   "main": "index.js",
   "scripts": {
