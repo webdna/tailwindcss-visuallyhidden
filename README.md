@@ -52,7 +52,7 @@ This plugin outputs the following
 }
 ```
 
-As per the [tailwind plugin docs](https://tailwindcss.com/docs/plugins/) you are able to pass variants (repsonsive, hover etc) as a parameter.
+As per the [tailwind plugin docs](https://tailwindcss.com/docs/plugins/) you are able to pass variants (responsive, hover etc) as a parameter.
 
 ```js
 require('tailwindcss-visuallyhidden')({
