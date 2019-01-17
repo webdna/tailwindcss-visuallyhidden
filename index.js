@@ -3,6 +3,17 @@ module.exports = function (variants) {
     const className = 'visuallyhidden';
     const focusClassName = 'focusable';
 
+    const original = {
+      clip: 'auto',
+      clipPath: 'none',
+      height: 'auto',
+      margin: 'auto',
+      overflow: 'auto',
+      position: 'relative',
+      width: 'auto',
+      whiteSpace: 'normal',
+    }
+
     const focusable = {
       clip: 'auto',
       clipPath: 'none',
@@ -27,6 +38,8 @@ module.exports = function (variants) {
         width: '1px',
         whiteSpace: 'nowrap', /* 1 */
       },
+
+      [`.not-${className}`]: original,
 
       [`.${className}.${focusClassName}:active`]: focusable,
       [`.${className}.${focusClassName}:focus`]: focusable,
